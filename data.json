@@ -1,0 +1,195 @@
+{
+    "Restaurant":[
+        {
+            "ID":"001",
+            "Nom":"El Morocco Club",
+            "Adresse":"Place du Tabor, Kasbah, Tanger 90000",
+            "Spécialité":"Fish",
+            "Note":4.2,
+            "Logo":"./Logo/El Morocco Club.jpg",
+            "Horaires":{
+                "Monday":"Closed",
+                "Tuesday":"9AM-5PM, 7:30PM-12AM",
+                "Wednesday":"9AM-5PM, 7:30PM-12AM",
+                "Thursday":"9AM-5PM, 7:30PM-12AM",
+                "Friday":"9AM-5PM, 7:30PM-12AM",
+                "Saturday":"9AM-5PM, 7:30PM-12AM",
+                "Sunday":"9AM-5PM, 7:30PM-12AM"
+            },
+            "Téléphone":"05399-48139",
+            "Site web":"https://elmoroccoclub.ma/"
+        },
+        {
+            "ID":"002",
+            "Nom":"La Table du Marché",
+            "Adresse":"Marina Bay, Ave Mohammed VI, Tangier 90000",
+            "Spécialité":"Restaurant Lounge, DJ & Live Music",
+            "Note":3.7,
+            "Logo":"./Logo/la Table de Marché.jfif",
+            "Horaires":{
+                "Monday":"12PM-2AM",
+                "Tuesday":"12PM-2AM",
+                "Wednesday":"12PM-2AM",
+                "Thursday":"12PM-2AM",
+                "Friday":"12PM-2AM",
+                "Saturday":"12PM-2AM",
+                "Sunday":"12PM-2AM"
+            },
+            "Téléphone":"05399-49202",
+            "Site web":"latabledumarche.ma"
+        },
+        {
+            "ID":"003",
+            "Nom":"Ô Saveur",
+            "Adresse":"14 Rue de la Kasbah, Tanger",
+            "Spécialité":"Cuisine Française",
+            "Note":4.3,
+            "Logo":"./Logo/Osaveur.png",
+            "Horaires":{
+                "Monday":"6PM-12AM",
+                "Tuesday":"6PM-12AM",
+                "Wednesday":"6PM-12AM",
+                "Thursday":"6PM-12AM",
+                "Friday":"6PM-12AM",
+                "Saturday":"6PM-12AM",
+                "Sunday":"6PM-12AM"
+            },
+            "Téléphone":"05399-49660",
+            "Site web":"https://groupeosaveurs.com/"
+        },
+        {
+            "ID":"004",
+            "Nom":"Restaurant Charly",
+            "Adresse":"Rue Les Cèdres, Tanger 90060",
+            "Spécialité":"Fish",
+            "Note":4.3,
+            "Logo":"./Logo/charly.jpg",
+            "Horaires":{
+                "Monday":"7AM-9PM",
+                "Tuesday":"7AM-9PM",
+                "Wednesday":"7AM-9PM",
+                "Thursday":"7AM-9PM",
+                "Friday":"7AM-9PM",
+                "Saturday":"7AM-9PM",
+                "Sunday":"7AM-9PM"
+            },
+            "Téléphone":"080-8576005",
+            "Site web":"https://www.facebook.com/charlyrestauranttanger/"
+        },
+        {
+            "ID":"005",
+            "Nom":"Villa Carleton",
+            "Adresse":" 5 Av. Sidi Amar, Tanger 90000",
+            "Spécialité":"Réstaurant",
+            "Note":4.3,
+            "Logo":"./Logo/Carleton.jfif",
+            "Horaires":{
+                "Monday":"7:30AM-11PM",
+                "Tuesday":"7:30AM-11PM",
+                "Wednesday":"7:30AM-11PM",
+                "Thursday":"7:30AM-11PM",
+                "Friday":"7:30AM-11PM",
+                "Saturday":"7:30AM-11PM",
+                "Sunday":"7:30AM-11PM"
+            },
+            "Téléphone":"0644-773333",
+            "Site web":"https://www.facebook.com/villacarleton"
+        },
+        {
+            "ID":"006",
+            "Nom":"Riad Al Andalous",
+            "Adresse":"Riad, Rue de la Kasbah, Tangier 90000",
+            "Spécialité":"Restaurant",
+            "Note":4.3,
+            "Logo":"./Logo/riad al andalus.jfif",
+            "Horaires":{
+                "Monday":"12:00PM-11PM",
+                "Tuesday":"12:00PM-11PM",
+                "Wednesday":"12:00PM-11PM",
+                "Thursday":"12:00PM-11PM",
+                "Friday":"12:00PM-11PM",
+                "Saturday":"12:00PM-11PM",
+                "Sunday":"12:00PM-11PM"
+            },
+            "Téléphone":"0708163126",
+            "Site web":""
+        },
+        {
+            "ID":"007",
+            "Nom":"La Fuga",
+            "Adresse":"8 Rue Casablanca, Tanger 90040",
+            "Spécialité":"Restaurant & Pizzeria",
+            "Note":4.2,
+            "Logo":"./Logo/la fuga.jfif",
+            "Horaires":{
+                "Monday":"12PM-1AM",
+                "Tuesday":"12PM-1AM",
+                "Wednesday":"12PM-1AM",
+                "Thursday":"12PM-1AM",
+                "Friday":"12PM-1AM",
+                "Saturday":"12PM-1AM",
+                "Sunday":"12PM-1AM"
+            },
+            "Téléphone":"0539331066",
+            "Site web":"https://www.lafugapizzeria.ma/"
+        },
+        {
+            "ID":"008",
+            "Nom":"La Terrasse - Dar El Kasbah",
+            "Adresse":"14 Rue de la Kasbah, Tanger",
+            "Spécialité":"Restaurant",
+            "Note":4.4,
+            "Logo":"./Logo/Blue Oriental.png",
+            "Horaires":{
+                "Monday":"closed",
+                "Tuesday":"10AM-10PM",
+                "Wednesday":"10AM-10PM",
+                "Thursday":"10AM-10PM",
+                "Friday":"10AM-10PM",
+                "Saturday":"10AM-10PM",
+                "Sunday":"10AM-10PM"
+            },
+            "Téléphone":"0613-602012",
+            "Site web":"https://laterrassededarelkasbah.business.site/"
+        },
+        {
+            "ID":"009",
+            "Nom":"La Bodega",
+            "Adresse":"35 Rue Allal Ben Abdellah, Tanger 90000",
+            "Spécialité":"Restaurant & Bar à tapas",
+            "Note":4.0,
+            "Logo":"./Logo/la bodega.png",
+            "Horaires":{
+                "Monday":"12PM-2AM",
+                "Tuesday":"12PM-2AM",
+                "Wednesday":"12PM-2AM",
+                "Thursday":"12PM-2AM",
+                "Friday":"12PM-2AM",
+                "Saturday":"12PM-2AM",
+                "Sunday":"12PM-2AM"
+            },
+            "Téléphone":"05399-45595",
+            "Site web":"https://labodegadetanger.com/"
+        },
+        {
+            "ID":"010",
+            "Nom":"Mesana Restaurant",
+            "Adresse":"Avenue Mohammed VI, Bahía Azhar Bloc n°1 RDC, Tangier 90000",
+            "Spécialité":"Restaurant",
+            "Note":4.5,
+            "Logo":"./Logo/Mesana.jfif",
+            "Horaires":{
+                "Monday":"1:30-4PM, 7:30-11PM",
+                "Tuesday":"1:30-4PM, 7:30-11PM",
+                "Wednesday":"1:30-4PM, 7:30-11PM",
+                "Thursday":"1:30-4PM, 7:30-11PM",
+                "Friday":"1:30-4PM, 7:30-11PM",
+                "Saturday":"1:30-4PM, 7:30-11PM",
+                "Sunday":"1:30-4PM, 7:30-11PM"
+            },
+            "Téléphone":"05393-01842",
+            "Site web":""
+        }
+    ]
+
+}
