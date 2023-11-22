@@ -4,6 +4,7 @@ let pointsSelect = document.getElementById('points');
 let specialitySelect = document.getElementById('Speciality');
 let gigsContainer = document.querySelector('.gigs');
 let resaults = document.querySelector('.resaults');
+let searchInput = document.getElementById('searchInput');
 
 // Toggle Menu
 menuIcon.addEventListener('click', function(){
@@ -31,26 +32,6 @@ optionsRequest.onreadystatechange = function(){
             Specialty.push(data.Restaurant[i].Spécialité);
             // Display Function
             display(data.Restaurant[i]);
-            specialitySelect.addEventListener('change', function(){
-                if(specialitySelect.value == 'All' && pointsSelect.value == 'All'){
-                    display(data.Restaurant[i]);
-                }else{
-                    let allGigs = document.querySelectorAll('.gig');
-                    allGigs.forEach((gig)=>{
-                        gig.remove();
-                    })
-                }
-            })
-            pointsSelect.addEventListener('change', function(){
-                if(specialitySelect.value == 'All' && pointsSelect.value == 'All'){
-                    display(data.Restaurant[i]);
-                }else{
-                    let allGigs = document.querySelectorAll('.gig');
-                    allGigs.forEach((gig)=>{
-                        gig.remove();
-                    })
-                }
-            })
         }
         // Remove Repeated Points (Spread Operator)
         let uniquePoints = [...new Set(points)];
@@ -70,9 +51,62 @@ optionsRequest.onreadystatechange = function(){
             specialitySelect.appendChild(optionSp);
         })
 
-        // when i click on the gig display the details
-        let logo = document.querySelectorAll('.logo');   
-        logo.forEach((d)=>{
+        // Filter Based On Points
+        pointsSelect.addEventListener('change', function(){
+            let allGigs = document.querySelectorAll('.gig');
+            allGigs.forEach((gig)=>{
+            gig.remove();
+            })
+            for(let i=0; i< data.Restaurant.length; i++){
+                if(pointsSelect.value == 'All' || pointsSelect.value == data.Restaurant[i].Note){
+                    console.log(data.Restaurant[i]);
+                    display(data.Restaurant[i]);
+                }
+            }
+            displayDetailsPage();
+        })
+        // Filter Based On Speciality
+        specialitySelect.addEventListener('change', function(){
+            let allGigs = document.querySelectorAll('.gig');
+            allGigs.forEach((gig)=>{
+            gig.remove();
+            })
+            for(let i=0; i< data.Restaurant.length; i++){
+                if(specialitySelect.value == 'All' || specialitySelect.value == data.Restaurant[i].Spécialité){
+                    console.log(data.Restaurant[i]);
+                    display(data.Restaurant[i]);
+                }
+            }
+            displayDetailsPage();
+        })
+
+        // Search
+        searchInput.addEventListener('keyup', function(){
+            let allGigs = document.querySelectorAll('.gig');
+            allGigs.forEach((gig)=>{
+            gig.remove();
+            })
+            for(let i=0; i< data.Restaurant.length; i++){
+                let NameUperCase = data.Restaurant[i].Nom.toUpperCase();
+                let NameLowerCase = data.Restaurant[i].Nom.toLowerCase();
+                let searchUperCase = searchInput.value.toUpperCase();
+                let searchLowerCase = searchInput.value.toLowerCase();
+                if(searchInput.value == data.Restaurant[i].Nom){
+                    display(data.Restaurant[i]);
+                }else if((NameUperCase).includes(searchUperCase) || (NameLowerCase).includes(searchUperCase)){
+                    display(data.Restaurant[i]);
+                }else if((NameUperCase).includes(searchLowerCase) || (NameLowerCase).includes(searchLowerCase)){
+                    display(data.Restaurant[i]);
+                }
+            }
+            displayDetailsPage();
+            
+        })
+        
+        function displayDetailsPage(){
+            // when i click on the gig display the details
+            let logo = document.querySelectorAll('.logo');
+            logo.forEach((d)=>{
             d.addEventListener('click', (e)=>{
                 let id = e.target.id;
                 // console.log(data.Restaurant[0].ID)
@@ -87,8 +121,10 @@ optionsRequest.onreadystatechange = function(){
                     }
                 }
             })
-        })
-    }   
+            })
+        }
+        displayDetailsPage()
+    }
 }
 
 // Display Data in Browser
@@ -133,11 +169,3 @@ function display(data){
     gigDiv.appendChild(ratesDiv);
     gigsContainer.appendChild(gigDiv)
   }
-
-//   let selected = specialitySelect.value;
-//   console.log(selected)
-
-// specialitySelect.addEventListener('change', function(){
-//     let selected = specialitySelect.value;
-//     console.log(selected)
-// })

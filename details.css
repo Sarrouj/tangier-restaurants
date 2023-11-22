@@ -22,10 +22,10 @@
 
 #details .container > .Spéciality-Meals > div{
     width: 50%;
-    height: 15vh;
     align-items: flex-start;
     justify-content: center;
     border-top: 1px solid white;
+    padding: 4vh 0;
 }
 
 #details .container > .Spéciality-Meals > div > h4{
@@ -41,20 +41,78 @@
     font-size: 1.1rem;
 }
 
+/* Adress and Schedule */
 #details .container > .Schedules-adresse{
     gap: 6vw;
-    margin-top: 4vh;
+    align-items: start;
 }
 
-#details .container .Schedules-adresse  div{
+#details .container > .Schedules-adresse > div{
     width: 50%;
-    height: 15vh;
     align-items: flex-start;
     justify-content: center;
     border-top: 1px solid white;
+    padding: 3vh 0;
 }
 
-#details .container > .Schedules-adresse > div > h4{
+#details .container > .Schedules-adresse > div  h4{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: var(--fw5);
+    margin-bottom: 1vh;
+}
+
+#details .container > .Spéciality-Meals > div > p{
+    color: white;
+    font-weight: var(--fw3);
+    font-size: 1.1rem;
+}
+
+.mapContainer{
+    width: 100%;
+    height: 33vh;
+    border: 8px solid white;
+    background-color: white;
+}
+
+.mapContainer > iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+}
+
+.schedulesContainer{
+    text-align: start;
+    gap: 1vh;
+    background-color: white;
+    width: 100%;
+    padding: 1vw;
+}
+
+.schedulesContainer > div{
+    justify-content: space-between;
+}
+
+.schedulesContainer > div > p{
+    font-size: 0.8rem;
+    font-weight: var(--fw5);
+}
+
+/* Website and Phone Number */
+.Website-Phone{
+    gap: 6vw;
+    align-items: start;
+}
+
+.Website-Phone  div{
+    width: 50%;
+    align-items: flex-start;
+    border-top: 1px solid white;
+    padding: 4vh 0;
+}
+
+.Website-Phone  div  p{
     color: white;
     font-size: 1.4rem;
     font-weight: var(--fw5);
