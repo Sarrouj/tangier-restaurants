@@ -1,0 +1,62 @@
+/* Details */
+#details{
+    background-color: var(--mainColor);
+    border-top: 1px solid white;
+}
+
+#details .container{
+    text-align: center;
+    padding: 4vh 0;
+}
+
+#details .container h3{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: var(--fw4);
+}
+
+#details .container > .Spéciality-Meals{
+    gap: 6vw;
+    margin-top: 4vh;
+}
+
+#details .container > .Spéciality-Meals > div{
+    width: 50%;
+    height: 15vh;
+    align-items: flex-start;
+    justify-content: center;
+    border-top: 1px solid white;
+}
+
+#details .container > .Spéciality-Meals > div > h4{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: var(--fw5);
+    margin-bottom: 1vh;
+}
+
+#details .container > .Spéciality-Meals > div > p{
+    color: white;
+    font-weight: var(--fw3);
+    font-size: 1.1rem;
+}
+
+#details .container > .Schedules-adresse{
+    gap: 6vw;
+    margin-top: 4vh;
+}
+
+#details .container .Schedules-adresse  div{
+    width: 50%;
+    height: 15vh;
+    align-items: flex-start;
+    justify-content: center;
+    border-top: 1px solid white;
+}
+
+#details .container > .Schedules-adresse > div > h4{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: var(--fw5);
+    margin-bottom: 1vh;
+}
