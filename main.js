@@ -132,7 +132,7 @@ function display(data){
     let gigDiv = document.createElement('div');
     gigDiv.classList.add('gig');
     let img = document.createElement('img');
-    img.setAttribute('src', './images/plats.avif');
+    img.setAttribute('src', data.images.image3);
     let overlayDiv = document.createElement('div');
     overlayDiv.classList.add('overlay');
     let nameDiv = document.createElement('div');

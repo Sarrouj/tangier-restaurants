@@ -1,3 +1,44 @@
+/* Images */
+
+ #Images-title{
+  height: 75vh;
+  width: 100%;
+  background: url(./images/Osaveur1.jpeg) center/cover, linear-gradient(180deg, rgba(0,0,0,0.07895658263305327) 0%, rgba(0,0,0,1) 100%);
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+ }
+
+ #Images-title > .container > .titlePointsContainer{
+    width: 100%;
+    height: 55vh;
+    justify-content: end;
+ }
+
+ #Images-title > .container > .titlePointsContainer > h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: var(--fw2);
+ }
+
+ .titlePointsContainer > .pointsContainer{
+    gap: 1vw;
+ }
+
+.titlePointsContainer > .pointsContainer .points{
+    color: white;
+    font-size: 2rem;
+    font-weight: var(--fw3);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.pointsContainer > ul{
+    color: #FBBC04;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
 /* Details */
 #details{
     background-color: var(--mainColor);
@@ -107,14 +148,45 @@
 
 .Website-Phone  div{
     width: 50%;
-    align-items: flex-start;
+    align-items: center;
     border-top: 1px solid white;
     padding: 4vh 0;
+    gap: 2vw;
 }
 
-.Website-Phone  div  p{
+.Website-Phone  div a{
     color: white;
-    font-size: 1.4rem;
-    font-weight: var(--fw5);
-    margin-bottom: 1vh;
+    font-weight: var(--fw3);
+    font-size: 1.1rem;
+}
+.Website-Phone > div > p{
+    color: white;
+    font-weight: var(--fw3);
+    font-size: 1.1rem;
+}
+
+.website i{
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+}
+
+.PhoneNumber i{
+    color: white;
+    font-size: 1rem;
+    transform: rotate(30deg);
+}
+
+.adresse > .titleIcon{
+    width: 98%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Schedules > .titleIcon{
+    width: 98%;
+    align-items: center;
+    justify-content: space-between;
 }

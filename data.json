@@ -17,12 +17,17 @@
                 "Sunday":"9AM-5PM, 7:30PM-12AM"
             },
             "Téléphone":"05399-48139",
-            "Site web":"https://elmoroccoclub.ma/"
+            "Website":"https://elmoroccoclub.ma/",
+            "images":{
+                "image1":"./images/a1.avif",
+                "image2":"./images/a2.avif",
+                "image3":"./images/a3.jpg"
+            }
         },
         {
             "ID":"002",
             "Nom":"La Table du Marché",
-            "Adresse":"Marina Bay, Ave Mohammed VI, Tangier 90000",
+            "Adresse":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207149.36879320175!2d-6.1034926054687535!3d35.78252670000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c7f0e800b435f%3A0xf601a63ed5e787d!2sLa%20Table%20du%20March%C3%A9!5e0!3m2!1sen!2sma!4v1700675654930!5m2!1sen!2sma",
             "Spécialité":"Restaurant Lounge, DJ & Live Music",
             "Note":3.7,
             "Logo":"./Logo/la Table de Marché.jfif",
@@ -36,12 +41,17 @@
                 "Sunday":"12PM-2AM"
             },
             "Téléphone":"05399-49202",
-            "Site web":"latabledumarche.ma"
+            "Website":"latabledumarche.ma",
+            "images":{
+                "image1":"./images/p1.avif",
+                "image2":"./images/p2.avif",
+                "image3":"./images/p4.avif"
+            }
         },
         {
             "ID":"003",
             "Nom":"Ô Saveur",
-            "Adresse":"14 Rue de la Kasbah, Tanger",
+            "Adresse":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.8026846672865!2d-5.837500024122095!3d35.78022297255536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c78a20e7ae5e9%3A0xd1a29f5737f9ae62!2zw5QgU2F2ZXVy!5e0!3m2!1sen!2sma!4v1700675919313!5m2!1sen!2sma",
             "Spécialité":"Cuisine Française",
             "Note":4.3,
             "Logo":"./Logo/Osaveur.png",
@@ -55,12 +65,17 @@
                 "Sunday":"6PM-12AM"
             },
             "Téléphone":"05399-49660",
-            "Site web":"https://groupeosaveurs.com/"
+            "Website":"https://groupeosaveurs.com/",
+            "images":{
+                "image1":"./images/Osaveur1.jpeg",
+                "image2":"./images/Osaveur2.jpeg",
+                "image3":"./images/Osaveur3.jpg"
+            }
         },
         {
             "ID":"004",
             "Nom":"Restaurant Charly",
-            "Adresse":"Rue Les Cèdres, Tanger 90060",
+            "Adresse":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.6531581431796!2d-5.835424624123021!3d35.7593288725621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b8795dc91024d%3A0x5f9b0c92ec35b03d!2sRestaurant%20Charly!5e0!3m2!1sen!2sma!4v1700676085627!5m2!1sen!2sma",
             "Spécialité":"Fish",
             "Note":4.3,
             "Logo":"./Logo/charly.jpg",
@@ -74,12 +89,17 @@
                 "Sunday":"7AM-9PM"
             },
             "Téléphone":"080-8576005",
-            "Site web":"https://www.facebook.com/charlyrestauranttanger/"
+            "Website":"https://www.facebook.com/charlyrestauranttanger/",
+            "images":{
+                "image1":"./images/charly.jpeg",
+                "image2":"./images/charly.jpg",
+                "image3":"./images/charly2.jpeg"
+            }
         },
         {
             "ID":"005",
             "Nom":"Villa Carleton",
-            "Adresse":" 5 Av. Sidi Amar, Tanger 90000",
+            "Adresse":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.8242101814744!2d-5.828113424122118!3d35.77969427255557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c79d1e4d1c66f%3A0x97803a68842ef5b4!2sVilla%20Carleton!5e0!3m2!1sen!2sma!4v1700676197069!5m2!1sen!2sma",
             "Spécialité":"Réstaurant",
             "Note":4.3,
             "Logo":"./Logo/Carleton.jfif",
@@ -93,12 +113,17 @@
                 "Sunday":"7:30AM-11PM"
             },
             "Téléphone":"0644-773333",
-            "Site web":"https://www.facebook.com/villacarleton"
+            "Website":"https://www.facebook.com/villacarleton",
+            "images":{
+                "image1":"./images/c1.avif",
+                "image2":"./images/a2.avif",
+                "image3":"./images/a3.jpg"
+            }
         },
         {
             "ID":"006",
             "Nom":"Riad Al Andalous",
-            "Adresse":"Riad, Rue de la Kasbah, Tangier 90000",
+            "Adresse":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25894.59426249179!2d-5.846138087270821!3d35.77969248863871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c7fb2509aebd7%3A0x253eb85131e56ec2!2sRiad%20Al%20Andalous%20Restaurant!5e0!3m2!1sen!2sma!4v1700676294877!5m2!1sen!2sma",
             "Spécialité":"Restaurant",
             "Note":4.3,
             "Logo":"./Logo/riad al andalus.jfif",
@@ -112,12 +137,17 @@
                 "Sunday":"12:00PM-11PM"
             },
             "Téléphone":"0708163126",
-            "Site web":""
+            "Website":"",
+            "images":{
+                "image1":"./images/d1.avif",
+                "image2":"./images/d2.avif",
+                "image3":"./images/d3.avif"
+            }
         },
         {
             "ID":"007",
             "Nom":"La Fuga",
-            "Adresse":"8 Rue Casablanca, Tanger 90040",
+            "Adresse":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51809.47054297129!2d-5.906271768538294!3d35.74854567650906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c78af1eaac241%3A0x59b5ca25ad43f4c3!2sLa%20Fuga!5e0!3m2!1sen!2sma!4v1700676367898!5m2!1sen!2sma",
             "Spécialité":"Restaurant & Pizzeria",
             "Note":4.2,
             "Logo":"./Logo/la fuga.jfif",
@@ -131,12 +161,17 @@
                 "Sunday":"12PM-1AM"
             },
             "Téléphone":"0539331066",
-            "Site web":"https://www.lafugapizzeria.ma/"
+            "Website":"https://www.lafugapizzeria.ma/",
+            "images":{
+                "image1":"./images/lafuga1.jpg",
+                "image2":"./images/lafuga2.avif",
+                "image3":"./images/lafuga3.avif"
+            }
         },
         {
             "ID":"008",
             "Nom":"La Terrasse - Dar El Kasbah",
-            "Adresse":"14 Rue de la Kasbah, Tanger",
+            "Adresse":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.523866290724!2d-5.816591424121751!3d35.78707057255323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c78b2ce30f445%3A0x52f1b9d76e0dd7fd!2sLa%20Terrasse%20-%20Dar%20El%20Kasbah!5e0!3m2!1sen!2sma!4v1700676459139!5m2!1sen!2sma",
             "Spécialité":"Restaurant",
             "Note":4.4,
             "Logo":"./Logo/Blue Oriental.png",
@@ -150,12 +185,17 @@
                 "Sunday":"10AM-10PM"
             },
             "Téléphone":"0613-602012",
-            "Site web":"https://laterrassededarelkasbah.business.site/"
+            "Website":"https://laterrassededarelkasbah.business.site/",
+            "images":{
+                "image1":"./images/e1.avif",
+                "image2":"./images/a2.avif",
+                "image3":"./images/a3.jpg"
+            }
         },
         {
             "ID":"009",
             "Nom":"La Bodega",
-            "Adresse":"35 Rue Allal Ben Abdellah, Tanger 90000",
+            "Adresse":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.9115878288426!2d-5.813145124122221!3d35.777548072556364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0c7f55286b8797%3A0x7cb5a775874e8142!2sLa%20Bodega!5e0!3m2!1sen!2sma!4v1700676560408!5m2!1sen!2sma",
             "Spécialité":"Restaurant & Bar à tapas",
             "Note":4.0,
             "Logo":"./Logo/la bodega.png",
@@ -169,12 +209,17 @@
                 "Sunday":"12PM-2AM"
             },
             "Téléphone":"05399-45595",
-            "Site web":"https://labodegadetanger.com/"
+            "Website":"https://labodegadetanger.com/",
+            "images":{
+                "image1":"./images/f1.avif",
+                "image2":"./images/f2.avif",
+                "image3":"./images/f3.avif"
+            }
         },
         {
             "ID":"010",
             "Nom":"Mesana Restaurant",
-            "Adresse":"Avenue Mohammed VI, Bahía Azhar Bloc n°1 RDC, Tangier 90000",
+            "Adresse":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.9825834029707!2d-5.788197124122311!3d35.77580417255685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b809d84910d87%3A0xd9e20fec25753308!2sMesana%20Restaurant!5e0!3m2!1sen!2sma!4v1700676645524!5m2!1sen!2sma",
             "Spécialité":"Restaurant",
             "Note":4.5,
             "Logo":"./Logo/Mesana.jfif",
@@ -188,7 +233,12 @@
                 "Sunday":"1:30-4PM, 7:30-11PM"
             },
             "Téléphone":"05393-01842",
-            "Site web":""
+            "Website":"",
+            "images":{
+                "image1":"./images/dq.avif",
+                "image2":"./images/b1.jpg",
+                "image3":"./images/lafuga1.jpg"
+            }
         }
     ]
 
